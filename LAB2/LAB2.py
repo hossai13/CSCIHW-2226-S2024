@@ -25,8 +25,8 @@ def set_ProperSubset(A, B):
 def Test01():
     A = {1, 2, 8}
     B = {1, 2, 3, 4, 5}
-    print ("Set A: ", A)
-    print ("Set B: ", B)
+    print("Set A: ", A)
+    print("Set B: ", B)
     print("Set Union: ", set_union(A, B))
     print("List Union: ", list_union(A, B))
     print("Set Intersection: ", set_intersection(A, B))
