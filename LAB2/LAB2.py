@@ -12,7 +12,7 @@ def list_union(A, B):
 
 def set_intersection(A, B):
     return A.intersection(B)
-
+ 
 def set_difference(A, B):
     return A.difference(B)
 
@@ -31,4 +31,5 @@ def Test01():
     print("Set Difference: ", set_difference(A, B))
     print("Set isSubset: ", set_isSubset(A, B))
     print("Set ProperSubset: ", set_ProperSubset(A, B))
-    
+
+Test01()
