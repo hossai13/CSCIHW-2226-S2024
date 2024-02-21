@@ -39,7 +39,6 @@ def printTruthTable2():
         for r in [True, False]:
             print("%-8s| %-8s| %-8s" % (p, r, disjunction(p, r)))
 
-
 def Test0():
     printName()
     a = True
